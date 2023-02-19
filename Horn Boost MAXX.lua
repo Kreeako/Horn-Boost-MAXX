@@ -1,4 +1,4 @@
-util.require_natives()
+util.require_natives("natives-1672190175")
 
 local function get_vehicle_ped_is_in(ped, include_last_vehicle)
     if include_last_vehicle or PED.IS_PED_IN_ANY_VEHICLE(ped) then
